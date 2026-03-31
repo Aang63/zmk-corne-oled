@@ -259,12 +259,12 @@ layers:
   - R
   - T
   - $$mdi:keyboard-tab$$
+  - {t: <, h: '"'}
   - H
   - J
   - K
   - L
   - {t: ;, s: ':'}
-  - .
   - $$mdi:arrow-left-bold$$
   - INS
   - $$mdi:arrow-right-bold$$
@@ -280,7 +280,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - LGUI
+  - {t: LEFT WIN, h: toggle}
   - $$mdi:arrow-down-bold$$
   - Z
   - X
