@@ -98,10 +98,10 @@
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4        &kp N5                             &mmv MOVE_UP                     &kp N6     &kp N7        &kp N8     &kp N9     &kp N0    &kp BSPC
-&trans  &trans  &trans  &trans  &trans        &mkp RCLK          &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp LEFT   &kp DOWN      &kp UP     &kp RIGHT  &kp HOME  &kp PG_UP
-&trans  &trans  &trans  &trans  &trans        &mkp LCLK  &td1                    &mmv MOVE_DOWN                   &trans     &trans        &trans     &kp DEL    &kp END   &kp PG_DN
-                        &trans  &mirror1 6 2  &trans                                                              &mkp LCLK  &mirror1 6 0  &mkp RCLK
+&trans  &kp N1  &kp N2  &kp N3  &kp N4        &kp N5                             &mmv MOVE_UP                     &kp N6    &kp N7        &kp N8  &kp N9     &kp N0    &kp BSPC
+&trans  &trans  &trans  &trans  &trans        &mkp RCLK          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT  &kp DOWN      &kp UP  &kp RIGHT  &kp HOME  &kp PG_UP
+&trans  &trans  &trans  &trans  &trans        &mkp LCLK  &td1                    &mmv MOVE_DOWN                   &trans    &trans        &trans  &kp DEL    &kp END   &kp PG_DN
+                        &trans  &mirror1 6 2  &trans                                                              &trans    &mirror1 6 0  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
@@ -111,9 +111,9 @@
             display-name = "SYMBOL";
             bindings = <
 &trans  &kp EXCL  &kp AT    &kp HASH  &kp DLLR      &kp PRCNT                          &mmv MOVE_UP                     &kp CARET  &kp AMPS      &kp ASTRK  &kp LPAR  &kp RPAR  &kp BSPC
-&td0    &trans    &trans    &kp UP    &trans        &mkp RCLK          &mmv MOVE_LEFT  &mkp MCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL     &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
+&td0    &trans    &trans    &kp UP    &trans        &mkp RCLK          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp MINUS  &kp EQUAL     &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 &trans  &trans    &kp LEFT  &kp DOWN  &kp RIGHT     &mkp LCLK  &td1                    &mmv MOVE_DOWN                   &kp UNDER  &kp PLUS      &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
-                            &kp LGUI  &mirror1 7 3  &kp SPACE                                                           &mkp LCLK  &mirror1 7 1  &mkp RCLK
+                            &kp LGUI  &mirror1 7 3  &kp SPACE                                                           &trans     &mirror1 7 1  &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
